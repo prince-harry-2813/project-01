@@ -1,0 +1,6 @@
+C:\Users\owner\Documents\project-01\dotNet5780_01_6650_6671\dotNet5780_01_6650_6671\bin\Debug\dotNet5780_01_6650_6671.exe.config
+C:\Users\owner\Documents\project-01\dotNet5780_01_6650_6671\dotNet5780_01_6650_6671\bin\Debug\dotNet5780_01_6650_6671.exe
+C:\Users\owner\Documents\project-01\dotNet5780_01_6650_6671\dotNet5780_01_6650_6671\bin\Debug\dotNet5780_01_6650_6671.pdb
+C:\Users\owner\Documents\project-01\dotNet5780_01_6650_6671\dotNet5780_01_6650_6671\obj\Debug\dotNet5780_01_6650_6671.csprojResolveAssemblyReference.cache
+C:\Users\owner\Documents\project-01\dotNet5780_01_6650_6671\dotNet5780_01_6650_6671\obj\Debug\dotNet5780_01_6650_6671.exe
+C:\Users\owner\Documents\project-01\dotNet5780_01_6650_6671\dotNet5780_01_6650_6671\obj\Debug\dotNet5780_01_6650_6671.pdb
