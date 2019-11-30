@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace dotNet5780_02_6650_6671
 {
-    class Host : IEnumerable<Host> 
+    public class Host : IEnumerable<Host>
     {
         public int HostKey { get; set; }
         public List<HostingUnit> HostingUnitCollection { get; set; }
@@ -21,7 +21,7 @@ namespace dotNet5780_02_6650_6671
                 {
                     for (int j = 0; j < 31; j++)
                     {
-                        HostingUnitCollection[n].Diary[i, j].Avilibility = false; 
+                        HostingUnitCollection[n].Diary[i, j].Avilibility = false;
                     }
                 }
             }
@@ -46,9 +46,9 @@ namespace dotNet5780_02_6650_6671
         {
             foreach (HostingUnit units in HostingUnitCollection)
             {
-                
+
                 if (units.ApproveRequest(guestReq))
-                         return units.HostingUnitKey;
+                    return units.HostingUnitKey;
             }
 
             return -1;
@@ -60,9 +60,9 @@ namespace dotNet5780_02_6650_6671
         /// <returns></returns>
         public int GetHostAnnualBusyDays()
         {
-            int  sumOfAnuualOccupiedBeds = 0;
-            
-            foreach(HostingUnit units in HostingUnitCollection)
+            int sumOfAnuualOccupiedBeds = 0;
+
+            foreach (HostingUnit units in HostingUnitCollection)
             {
                 sumOfAnuualOccupiedBeds += units.GetAnnualBusyDays();
             }
@@ -78,15 +78,15 @@ namespace dotNet5780_02_6650_6671
             HostingUnitCollection.Sort();
         }
 
-        public bool AssignRequests(params GuestRequest [] requestlist)
+        public bool AssignRequests(params GuestRequest[] requestlist)
         {
             bool deniedRequest = true;
-            long [] approvalArray = new long[requestlist.Length];
-            for (int  i = 0; i < requestlist.Length; i++)
+            long[] approvalArray = new long[requestlist.Length];
+            for (int i = 0; i < requestlist.Length; i++)
             {
                 approvalArray[i] = SubmitRequest(requestlist[i]);
                 if (approvalArray[i] == -1)
-                    deniedRequest = false; 
+                    deniedRequest = false;
             }
 
             return deniedRequest;

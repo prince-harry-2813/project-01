@@ -13,7 +13,7 @@ namespace dotNet5780_02_6650_6671
         private static GuestRequest CreateRandomRequest()
         {
             GuestRequest gs = new GuestRequest();
-            //Fill randomally the Entry and Release dates of gs
+            
 
             Date CreatingDateRand()
             {
@@ -71,7 +71,7 @@ namespace dotNet5780_02_6650_6671
                 {
                     dict[unit.HostingUnitKey] = unit.GetAnnualBusyPrecentege();
                 }
-            }
+             }
             //get max value in dictionary
             float maxVal = dict.Values.Max();
             //get max value key name in dictionary

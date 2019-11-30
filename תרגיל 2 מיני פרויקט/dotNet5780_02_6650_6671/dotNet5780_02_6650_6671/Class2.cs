@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dotNet5780_02_6650_6671
 {
-    class HostingUnit : IComparable<HostingUnit>
+    public class HostingUnit : IComparable
     {
         public int StSerialKey { get; set; }
         public int HostingUnitKey { get; set; }
@@ -63,7 +63,7 @@ namespace dotNet5780_02_6650_6671
             return busyDays;
         }
         
-        public float GetAnnualBusyPercentage()
+        public float GetAnnualBusyPrecentege()
         {
             return (GetAnnualBusyDays() / 372) * 100;
         }
@@ -77,9 +77,9 @@ namespace dotNet5780_02_6650_6671
             return 0;
         }
 
-        public void SortUnits()
+        public int CompareTo(object obj)
         {
-            HostingUnitCollection.Sort();
+            throw new NotImplementedException();
         }
     }
 }
