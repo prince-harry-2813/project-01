@@ -1,0 +1,3 @@
+C:\Users\owner\Documents\Visual Studio 2017\Projects\dotNet5780_02_6650_6671\dotNet5780_02_6650_6671\obj\Debug\dotNet5780_02_6650_6671.csprojAssemblyReference.cache
+C:\Users\owner\Documents\Visual Studio 2017\Projects\dotNet5780_02_6650_6671\dotNet5780_02_6650_6671\obj\Debug\dotNet5780_02_6650_6671.csproj.CoreCompileInputs.cache
+C:\Users\owner\Downloads\תרגיל 2 מיני פרויקט\dotNet5780_02_6650_6671\dotNet5780_02_6650_6671\obj\Debug\dotNet5780_02_6650_6671.csprojAssemblyReference.cache
